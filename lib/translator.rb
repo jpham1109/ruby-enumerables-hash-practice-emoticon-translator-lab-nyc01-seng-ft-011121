@@ -12,7 +12,7 @@ def load_library(file)
     emoticons[k] = Hash[lang[0], v[0], lang[1], v[1]]
   end
   emoticons
-  #binding.pry
+  binding.pry
 end
 #binding.pry 
 
