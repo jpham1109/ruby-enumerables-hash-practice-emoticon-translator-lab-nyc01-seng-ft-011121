@@ -19,6 +19,7 @@ end
 
 def get_japanese_emoticon(emoticons, w_emoticon)
   load_library(emoticons)
+  emoticons = load_library(emoticons)
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
   j_emoticon = load_library(emoticons).each do |k, v|
