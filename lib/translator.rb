@@ -37,12 +37,9 @@ def get_english_meaning(file, j_emoticon)
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
   english = emoticons[:meaning][j_emoticon]
-    if emoticons[k].value?(j_emoticon)
-      english = k
-      #binding.pry
-    else p sorry_message
+    if english
+      english
+    else
+      sorry_message
     end
-    #binding.pry
-  end
-  english
 end
