@@ -13,7 +13,7 @@ def load_library(file)
     emoticons[:emote][eng] = jpn
   end
   emoticons
-  #binding.pry
+  binding.pry
 end
 #binding.pry 
 
