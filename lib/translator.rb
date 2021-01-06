@@ -38,6 +38,7 @@ end
 
 def get_english_meaning(file, j_emoticon)
   emoticons = load_library(file)
+  english = ""
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
   emoticons.each do |k, v|
