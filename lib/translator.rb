@@ -19,15 +19,17 @@ end
 
 def get_japanese_emoticon(file, w_emoticon)
   emoticons = load_library(file)
+  j_emoticon = ""
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
-  j_emoticon = emoticons.each do |k, w_emoticon|
+  emoticons.each do |k,v|
     #w_emoticon = emoticons[k][:english]
     #binding.pry
     if emoticons[k].value?(w_emoticon)
       j_emoticon = emoticons[k][:japanese]
       #binding.pry
-    else p sorry_message
+    else
+      sorry_message
     end
     #binding.pry
   end
@@ -51,6 +53,6 @@ def get_english_meaning(file, j_emoticon)
     end
     #binding.pry
   end
-  binding.pry
+  #binding.pry
   english
 end
