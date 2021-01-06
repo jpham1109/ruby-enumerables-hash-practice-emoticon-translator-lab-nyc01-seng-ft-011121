@@ -25,9 +25,8 @@ def get_japanese_emoticon(file, w_emoticon)
   j_emoticon = emoticons[:emote][w_emoticon]
     if j_emoticon
       j_emoticon
-    else p sorry_message
-    end
-    binding.pry
+    else
+      sorry_message
   end
   j_emoticon
 end
