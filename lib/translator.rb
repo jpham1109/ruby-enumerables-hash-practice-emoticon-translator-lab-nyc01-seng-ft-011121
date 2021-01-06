@@ -7,7 +7,7 @@ puts file.inspect
 def load_library(file)
   file = YAML.load_file('./lib/emoticons.yml')
   emoticons = {:meaning => {}, :emote => {}}
-  file.each do |meaning, lang|
+  YAML.load_file('./lib/emoticons.yml').each do |meaning, lang|
     lang = [eng, jpn]
     emoticons[:meaning][jan] = meaning
     emoticons[:emote][eng] = jpn
