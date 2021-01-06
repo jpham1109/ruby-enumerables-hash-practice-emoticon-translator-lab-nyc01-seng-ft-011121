@@ -29,7 +29,7 @@ def get_japanese_emoticon(file, w_emoticon)
       #binding.pry
     else p sorry_message
     end
-    binding.pry
+    #binding.pry
   end
   j_emoticon
 end
