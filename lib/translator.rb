@@ -5,8 +5,9 @@ file = YAML.load_file('./lib/emoticons.yml')
 puts file.inspect
 
 def load_library(file)
-  # code goes here
+  
   file = YAML.load_file(---'./lib/emoticons.yml')
+  emoticons = {:meaning => {}, :
   emoticons = file.each_with_object({}) do |(k, v), emoticons|
     lang = [:english, :japanese]
     emoticons[k] = Hash[lang[0], v[0], lang[1], v[1]]
