@@ -18,7 +18,6 @@ end
 
 
 def get_japanese_emoticon(file, w_emoticon)
-  load_library(file)
   emoticons = load_library(file)
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
@@ -36,7 +35,6 @@ end
 
 
 def get_english_meaning(file, j_emoticon)
-  load_library(file)
   emoticons = load_library(file)
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
