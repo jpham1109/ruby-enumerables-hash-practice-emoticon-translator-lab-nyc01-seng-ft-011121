@@ -44,7 +44,7 @@ def get_english_meaning(file, j_emoticon)
     j_emoticon = emoticons[k][:japanese]
     if emoticons[k].value?(j_emoticon)
       english = k
-      binding.pry
+      #binding.pry
     else p sorry_message
     end
     #binding.pry
