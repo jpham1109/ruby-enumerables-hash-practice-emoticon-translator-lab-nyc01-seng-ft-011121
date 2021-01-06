@@ -40,7 +40,7 @@ def get_english_meaning(emoticons, j_emoticon)
   #binding.pry
   english = load_library(emoticons).each do |k,v|
     j_emoticon = load_library(emoticons)[k][:japanese]
-    if j_emoticon == load_library(emoticons)[k][:japanese]
+    if load_library(emoticons)[k][:japanese]
       english = load_library(emoticons)[k]
     else sorry_message
     end
