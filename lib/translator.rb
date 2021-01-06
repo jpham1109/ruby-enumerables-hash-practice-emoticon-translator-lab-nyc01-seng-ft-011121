@@ -45,7 +45,8 @@ def get_english_meaning(file, j_emoticon)
     if emoticons[k].value?(j_emoticon)
       english = k
     #binding.pry
-    else p sorry_message
+    else 
+      sorry_message
     end
     #binding.pry
   end
