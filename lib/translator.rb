@@ -11,7 +11,8 @@ def load_library(file)
   
   file.each do |meaning, lang|
     lang = [eng, jan]
-    emoticons[:meaning][jan] = 
+    emoticons[:meaning][jan] = meaning
+    emoticons
   end
   emoticons
   #binding.pry
