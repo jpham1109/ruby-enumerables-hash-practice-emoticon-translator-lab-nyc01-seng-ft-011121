@@ -29,9 +29,9 @@ def get_japanese_emoticon(file, w_emoticon)
       #binding.pry
     else p sorry_message
     end
-    j_emoticon
     #binding.pry
   end
+  j_emoticon
 end
 
 
@@ -49,6 +49,6 @@ def get_english_meaning(file, j_emoticon)
     else p sorry_message
     end
     #binding.pry
-    english
   end
+  english
 end
