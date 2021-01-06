@@ -10,8 +10,8 @@ def load_library(file)
   emoticons = {:meaning => {}, :emote => {}}
   
   file.each do |meaning, lang|
-    lang = 
-    emoticons[k] = Hash[lang[0], v[0], lang[1], v[1]]
+    lang = [eng, jan]
+    emoticons = 
   end
   emoticons
   #binding.pry
