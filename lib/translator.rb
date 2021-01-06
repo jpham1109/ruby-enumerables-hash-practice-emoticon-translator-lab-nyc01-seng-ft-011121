@@ -1,8 +1,6 @@
 # require modules here
 require "yaml"
 require "pry"
-file = YAML.load_file('./lib/emoticons.yml')
-puts file.inspect
 
 def load_library(file)
   emoticons = {:meaning => {}, :emote => {}}
