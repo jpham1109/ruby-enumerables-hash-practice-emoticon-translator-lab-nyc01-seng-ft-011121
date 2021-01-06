@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(file, w_emoticon)
   emoticons = load_library(file)
   sorry_message = "Sorry, that emoticon was not found"
-  #binding.pry
+  binding.pry
   j_emoticon = emoticons.each do |k, v|
     w_emoticon = emoticons[k][:english]
     #binding.pry
