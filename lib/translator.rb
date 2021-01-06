@@ -25,7 +25,7 @@ def get_japanese_emoticon(emoticons, w_emoticon)
     w_emoticon = load_library(emoticons)[k][:english]
     #binding.pry
     if load_library(emoticons)[k].value?(w_emoticon)
-      j_emoticon == load_library(emoticons)[k][:japanese]
+      j_emoticon = load_library(emoticons)[k][:japanese]
       #binding.pry
     else sorry_message
     end
