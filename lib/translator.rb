@@ -41,10 +41,10 @@ def get_english_meaning(file, j_emoticon)
   sorry_message = "Sorry, that emoticon was not found"
   #binding.pry
   english = emoticons.each do |k|
-    #binding.pry
+    binding.pry
     if emoticons[k].value?(j_emoticon)
       english = k
-    binding.pry
+    #binding.pry
     else 
       sorry_message
     end
